@@ -11,12 +11,6 @@
       "buildpacks": [{
       "url": "heroku/python"
     }],
-    "formation": {
-      "worker": {
-        "quantity": 1,
-        "size": "free"
-      }
-    },
     "repository": "https://github.com/TeamYukki/YukkiChatBot",
     "env": {
       "API_ID": {
